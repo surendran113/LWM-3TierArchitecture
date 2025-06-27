@@ -7,10 +7,10 @@ CORS(app)
 
 # Add your Database connection details in the below three lines
 db_config = {
-    "host": "ytdb.cpk8oagkgyaz.ap-south-1.rds.amazonaws.com",  
-    "user": "admin",
-    "password": "Admin123#",
-    "database": "ytdatabase"
+    "host": "database-1.c1a4cq4gws86.eu-north-1.rds.amazonaws.coms.com",  
+    "user": "surya",
+    "password": "Surya123#",
+    "database": "youtube"
 }
 
 @app.route('/login', methods=['GET'])
